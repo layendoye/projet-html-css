@@ -1,0 +1,189 @@
+  body{
+    background-color: #aa4fab24;
+  }
+
+  .GrandBloc {
+    width: 90%;
+    height:74%;
+    border: 10px ridge hsl(0, 0%, 20%);
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 11px 5px rgba(228, 105, 18, 0.88);
+    background-color: rgba(132, 214, 211, 0.8);
+  }
+
+
+  .PremierBloc,.DeuxGrandBloc,.TroiGrandBloc,.QuatreGrandBloc{
+    width: 97.4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px #844f7f;
+  }
+  .PremierBloc {
+    border: 2px solid #333;
+  }
+   
+  .DeuxGrandBloc {
+    height:5%;
+    border: 2px solid #b78989;
+    background-color: #424448;
+  }
+  
+  .LesMenus {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  li{
+      display: inline-block;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      width: 200px;
+      height: 80px;
+      position: relative;
+      left: 65px;
+  }
+  li a{
+    text-decoration: none;
+    color: rgb(80, 172, 80);
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 64px;
+    top: 21px;
+    padding-top: 5px;
+  }
+
+  .M1:hover{
+    border-top:5px solid #4C8;
+    background-color: rgba(150, 64, 200, 0.15);
+  }
+  .M2:hover{
+      border-top:5px solid #f1dc4f;
+      background-color: rgba(241, 211, 79, 0.15);
+  }
+  .M3:hover{
+      border-top:5px solid #0070BB;
+      background-color: rgba(000, 112, 192, 0.15);
+  }
+  .M4:hover{
+      border-top:5px solid #e44d26;
+      background-color: rgba(228, 77, 38, 0.15);
+  }
+  li:hover{
+    height: 75px; /*la taille diminue de 5px à cause de la bordure */
+  }
+  li:hover a{
+    padding-top: 0px;
+  }
+  .TroiGrandBloc {
+    height:40em;
+    border: 2px solid #333;
+  }
+  
+  .TroiGrandBloc1 {
+    width: 57%;
+    height: 95%;
+    margin-left:1%;
+    margin-top:1%; 
+    border: 2px solid #333;
+    box-shadow: 0px 0px 2px 2px #8a9798;
+  }
+
+  .TroiGrandBloc2,.TroiGrandBloc3{
+    width: 39%;
+    height: 45%;
+    position: relative;
+    left: 59.5%;
+    box-shadow: 0px 0px 1px 2px #8a9798;
+  }
+  .TroiGrandBloc2 {
+    bottom: 612px; 
+    border: 2px solid rgb(16, 98, 219);
+  }
+  .TroiGrandBloc3 {
+    bottom: 585px; 
+    border: 2px solid  rgb(16, 98, 219);
+  }
+
+  .QuatreGrandBloc {
+    height:9em;
+    margin-bottom: 1%;
+    border: 2px solid #333;
+  }
+
+  .TroiGrandBloc1:hover,.TroiGrandBloc2:hover,.TroiGrandBloc3:hover,.QuatreGrandBloc:hover{
+    background-color: #93f0eb;
+  }
+  .TroiGrandBloc1,.TroiGrandBloc2,.TroiGrandBloc3,.QuatreGrandBloc{
+    transition: background-color 2s;
+  }
+  .MonLogo img {
+    width: 11%;
+    margin: 51px 43px;
+    border: 10px solid #55bfb9;
+    border-radius: 34px;
+    box-shadow: 0px 0px 10px 4px rgba(228, 105, 18, 0.88);
+  }
+  .meunuDer li{
+    display:none;
+    top: 78px;
+    background-color: #55bfbaa4;
+    left:-27.5%;
+    z-index: 1;
+  }
+  .meunuDer li a{
+    color: #333;
+  }
+  li:hover .meunuDer li{
+    display:block;
+    height: 80px;
+  }
+  .meunuDer li:hover{
+    background-color: #4C8;
+  }
+
+    @media screen and (min-width: 500px) and (max-width: 964px){
+
+      .TroiGrandBloc1 {
+        width: 96%;
+        height: 53.5%;
+        margin-left: 2%;
+      }
+    
+      .TroiGrandBloc2,.TroiGrandBloc3{
+        width: 96%;
+        height: 20%;
+        position: relative;
+        top: 1%;
+        left: 0.45%;
+        margin-bottom: 1%;
+        margin-left: 1.5%;
+      }
+      .meunuDer li{
+        position: relative;
+        width: 99.8%;
+        left: -2.2%;
+        background-color: rgb(158, 191, 212);
+        z-index: 1;
+      }
+      .M1,.M2,.M3,.M4{
+        display: inline-block;
+        width: 100%;
+        margin-left: 0%;
+        left: 0px;
+        align-content: center;
+      }
+      li a{
+        left: 42%;
+      }
+      ul{
+        padding: 0px;
+      }
+
+    }
+
+    
+
